@@ -1,0 +1,96 @@
+GoTrace
+GoTrace integrates the collection of daily health survey
+and location tracking data of the end-users on a digital and web platform to generate real-time, accurate, and reliable contact tracing reports.
+Contact tracing with GoTrace becomes possible in three easy steps. To begin with, the end-user must register to create an account. Next, when the account has been confirmed, he/she will have access to the daily health survey form. A QR code is assigned to access the link for the health survey which will require the ID number of the end-user. Lastly, once the responses to the health survey are recorded, the end-user can now access the other QR codes in various locations on the campus or site.
+
+What's New in Version 1.0.11
+August 11, 2021 2:23 PM
+* added Covid-19 Vaccine Survey in the sidebar (layout\sidebar.php)
+* added Covid-19 Vaccine Record reports  (listvaccine.php & recvaccine.php)
+* healthsurvey include dosage and vaccine type survey (healthsurvey.php)
+* added 2 new fields dosage and vactype in the tbl_reg
+
+What's New in Version 1.0.10
+July 26, 2021 9:21 PM
+* added GoTrace Flip Book Manual 2021 in the sidebar
+
+What's New in Version 1.0.9
+June 18, 2021 11:50 AM
+Bug Fix
+* fix bar graph auto update based on the filtered date (Dashboard)
+What's New
+* update data counter auto compute based on the filtered date (Dashboard)
+* added feedback survey result in sidebar
+
+What's New in Version 1.0.8
+May 30, 2021 4:57 PM
+Bug Fixes
+* Fixed view table width list reg
+* Fixed view table width list trace
+
+What's New in Version 1.0.7
+May 27, 2021 10:52 AM
+What's New
+* Tracing add message if it is login-out
+
+Bug Fixes
+* Manage accounts correct delete message
+
+What's New in Version 1.0.6
+May 26, 2021 9:53 AM
+What's New
+* Return NO default value of symptoms in health survey 
+
+What's New in Version 1.0.5
+March 22, 2021 6:55 PM
+What's New
+* NO default value of symptoms in health survey 
+* ON Feedback features (user evaluation)
+
+What's New in Version 1.0.4 
+February 14, 2021 3:01 AM
+What's New
+* Add new sidebar Manage user accounts (nurse and technical can update user info, merge account and delete account).
+* Setting for Admin account (can change user level and provide a link for forgot password) 
+
+Bug Fixes
+* Fixed dynamic usertype.
+
+What's New in Version 1.0.3 
+February 12, 2021 6:12 PM
+What's New
+* Remove registration ID Pattern for CvSU-Main. 
+
+Bug Fixes
+* dashboard registration modal fixed usertype display.
+* health survey alert message link redirect to cvsuccatre host.
+* contact tracing grammar message fixed.
+* fixed alert margin top for register and health survey.
+
+
+What's New in Version 1.0.2 
+February 7, 2021 12:03 AM
+What's New
+* Clickable data counter icon (display details register user, active user, active location, high temperature, symptoms)
+* Warning Page: will appear if the user selected 2 or more symptoms in the daily health survey.
+* Home page: contains promotional materials and system information
+* Data Privacy Page: contains terms, conditions, and data privacy
+
+Bug Fixes
+* Fixed  Login/Logout messages that are hidden behind the nav bar.
+
+
+What's New in Version 1.0.1 
+January 18, 2021 10:05 PM
+What's New
+* From today, you'll notice a QRcode generator can generate Health Survey per Location (when scanning health survey QRcode will record the health declaration information of the user and login on the specific location, however, the use of health survey remain once a day) 
+* Level of Security - added level 2 for University physician, can shift to other campus records (available at the navigation bar log out portion)
+* User can download the QRcode and resources template on the QRcode generator page.
+* Added sidebar for Release note
+
+Bug Fixes
+* Users can open pages without an active login
+* Registration page responsiveness 
+
+GoTrace release notes to highlight their spirit of continual improvement.
+
